@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url("../image/coffee1.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:burlywood;
+    background-color: rgba(165, 42, 42, 0.493);
+    padding: 1rem;
+    border: 3px solid burlywood;
+    transition: all 0.3s ease-in-out;
+
+}
+.intro-image__link a:hover{
+    transform: scale(1.1);
+}
+
+.intro-text {
+    height: 350px;
+    background-color: #914c2f;
+    color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    height: 450px;
+    background-image: url("../image/coffee2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.quality-image a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:burlywood;
+    background-color: rgba(165, 42, 42, 0.493);
+    padding: 1rem;
+    border: 3px solid burlywood;
+    transition: all 0.3s ease-in-out;
+}
+
+.quality-image a:hover {
+    transform: scale(1.1);
+}
+
+
+.quality-text {
+    height: 250px;
+    background-color: #914c2f;
+    color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.quality-text__textbox h3 {
+font-size: 2rem;
+text-transform: uppercase;
+margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: burlywood;
+    padding-top: 2rem;
+    color:#914c2f ;
+    font-size: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+transform: scale(1.3);
+}
+
+.kolmas-image {
+    background-attachment: fixed;
+    background-image: url("../image/coffee3.jpg");
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.kolmas-pilt__link a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:burlywood;
+    background-color: rgba(165, 42, 42, 0.493);
+    padding: 1rem;
+    border: 3px solid burlywood;
+    transition: all 0.3s ease-in-out;
+}
+
+.kolmas-pilt__link a:hover {
+    transform: scale(1.1);
+}
+
+.kolmas-text{
+    height: 150px;
+    background-color: #914c2f;
+    color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    text-transform: uppercase;
+    font-size: large;
+}
